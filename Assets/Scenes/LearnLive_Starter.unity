@@ -6660,6 +6660,10 @@ PrefabInstance:
       propertyPath: m_ProbeAnchor
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 2300000, guid: fb3e390284aaa0b4fbe3c8dec10a512f, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fb3e390284aaa0b4fbe3c8dec10a512f, type: 3}
 --- !u!4 &912353987 stripped
