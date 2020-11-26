@@ -4,15 +4,20 @@ using UnityEngine;
 
 public class Scare : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+  
+    
+    public AudioSource ScareNoise;
+
+    private void Start()
     {
-        
+       
+        ScareNoise = GetComponent<AudioSource>();
+    }
+    public void OnTriggerEnter(Collider other)
+    {
+       
+        ScareNoise.Play(0);
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
 }
+

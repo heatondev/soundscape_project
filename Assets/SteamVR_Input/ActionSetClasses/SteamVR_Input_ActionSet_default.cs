@@ -113,6 +113,14 @@ namespace Valve.VR
             }
         }
         
+        public virtual SteamVR_Action_Boolean Toggle_music
+        {
+            get
+            {
+                return SteamVR_Actions.default_Toggle_music;
+            }
+        }
+        
         public virtual SteamVR_Action_Vibration Haptic
         {
             get
