@@ -1426,6 +1426,22 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 4.1, y: 3.520324, z: 0.3861115}
   m_Center: {x: -2.1, y: 1.7319375, z: -0.00030256808}
+--- !u!114 &156985699
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 156985691}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b242b18ccbc96a749869e09cb1cc665b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  AudioSource: {fileID: 717968222}
+  fade: {fileID: 9006967236225669648, guid: ea00ceef653316748b785ab393c9f1c8, type: 2}
+  original: {fileID: 24500006, guid: ea00ceef653316748b785ab393c9f1c8, type: 2}
+  time: 20
 --- !u!1001 &177768832
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6526,7 +6542,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!65 &717968221
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -6549,7 +6565,8 @@ AudioSource:
   m_GameObject: {fileID: 717968220}
   m_Enabled: 1
   serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
+  OutputAudioMixerGroup: {fileID: 24300002, guid: ea00ceef653316748b785ab393c9f1c8,
+    type: 2}
   m_audioClip: {fileID: 8300000, guid: 51cd033242b3efa45b91c65617c9cc93, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 0.5
@@ -6910,15 +6927,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5475726, guid: dc06161b6d97feb419f45f03b62e14b9, type: 3}
       propertyPath: m_AngularDrag
-      value: 0.05
+      value: 10000000
       objectReference: {fileID: 0}
     - target: {fileID: 5475726, guid: dc06161b6d97feb419f45f03b62e14b9, type: 3}
       propertyPath: m_UseGravity
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5475726, guid: dc06161b6d97feb419f45f03b62e14b9, type: 3}
       propertyPath: m_CollisionDetection
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5475726, guid: dc06161b6d97feb419f45f03b62e14b9, type: 3}
+      propertyPath: m_Drag
+      value: 10000000
+      objectReference: {fileID: 0}
+    - target: {fileID: 5475726, guid: dc06161b6d97feb419f45f03b62e14b9, type: 3}
+      propertyPath: m_Constraints
+      value: 126
       objectReference: {fileID: 0}
     - target: {fileID: 11455280, guid: dc06161b6d97feb419f45f03b62e14b9, type: 3}
       propertyPath: m_Enabled
@@ -6942,7 +6967,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 13693334, guid: dc06161b6d97feb419f45f03b62e14b9, type: 3}
       propertyPath: m_Radius
-      value: 0.5
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 13693334, guid: dc06161b6d97feb419f45f03b62e14b9, type: 3}
       propertyPath: m_Height
