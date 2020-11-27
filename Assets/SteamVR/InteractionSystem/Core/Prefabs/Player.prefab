@@ -269,7 +269,7 @@ MonoBehaviour:
   - {fileID: 11450312}
   - {fileID: 11401046}
   - {fileID: 11497470}
-  headCollider: {fileID: 13533284}
+  headCollider: {fileID: 0}
   rigSteamVR: {fileID: 114188}
   rig2DFallback: {fileID: 105336}
   audioListener: {fileID: 471722}
