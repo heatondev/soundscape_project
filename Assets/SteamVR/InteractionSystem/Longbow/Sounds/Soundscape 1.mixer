@@ -1,0 +1,197 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!244 &-8998436190651428218
+AudioMixerEffectController:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: 
+  m_EffectID: 9e7805b58adae4c469b24e6ffe164aa5
+  m_EffectName: Attenuation
+  m_MixLevel: 412621993af81e847a2a1839817364fc
+  m_Parameters: []
+  m_SendTarget: {fileID: 0}
+  m_EnableWetMix: 0
+  m_Bypass: 0
+--- !u!245 &-8022343472267494824
+AudioMixerSnapshotController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Right Hall
+  m_AudioMixer: {fileID: 24100000}
+  m_SnapshotID: 9e924e5f1b472bb43a9d75ed76c4c05c
+  m_FloatValues: {}
+  m_TransitionOverrides: {}
+--- !u!244 &-2343143279912690227
+AudioMixerEffectController:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: 
+  m_EffectID: a00856764c583c94391f614699f411dc
+  m_EffectName: Attenuation
+  m_MixLevel: fb015ea6608c2b64ba1369ea64a9c4fe
+  m_Parameters: []
+  m_SendTarget: {fileID: 0}
+  m_EnableWetMix: 0
+  m_Bypass: 0
+--- !u!241 &24100000
+AudioMixerController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Soundscape 1
+  m_OutputGroup: {fileID: 0}
+  m_MasterGroup: {fileID: 24300002}
+  m_Snapshots:
+  - {fileID: 24500006}
+  - {fileID: 476131904333735721}
+  - {fileID: -8022343472267494824}
+  m_StartSnapshot: {fileID: 24500006}
+  m_SuspendThreshold: -80
+  m_EnableSuspend: 1
+  m_UpdateMode: 0
+  m_ExposedParameters: []
+  m_AudioMixerGroupViews:
+  - guids:
+    - b63ef328ddc02da43beb25467f7e9bdd
+    - e05ba361060cf3b48a82ebddb1786b6f
+    - ef458b5ebd23c664ca04d285be1931f2
+    - fc37be76005e4134089f7bc73bdfb2c7
+    name: View
+  m_CurrentViewIndex: 0
+  m_TargetSnapshot: {fileID: 24500006}
+--- !u!243 &24300002
+AudioMixerGroupController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Master
+  m_AudioMixer: {fileID: 24100000}
+  m_GroupID: b63ef328ddc02da43beb25467f7e9bdd
+  m_Children:
+  - {fileID: 2632912868235507638}
+  - {fileID: 1942158454243301519}
+  - {fileID: 6968131100150556962}
+  m_Volume: 107770874ce12cf449f00c16d3c9aeeb
+  m_Pitch: a751259ecf7a94849b5b8609d237e26b
+  m_Send: 00000000000000000000000000000000
+  m_Effects:
+  - {fileID: 24400004}
+  m_UserColorIndex: 0
+  m_Mute: 0
+  m_Solo: 0
+  m_BypassEffects: 0
+--- !u!244 &24400004
+AudioMixerEffectController:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: 
+  m_EffectID: 1653f0368294ee149a2f025208dd42f9
+  m_EffectName: Attenuation
+  m_MixLevel: e085aebe70755744fbc812867228b4c9
+  m_Parameters: []
+  m_SendTarget: {fileID: 0}
+  m_EnableWetMix: 0
+  m_Bypass: 0
+--- !u!245 &24500006
+AudioMixerSnapshotController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Left Hall
+  m_AudioMixer: {fileID: 24100000}
+  m_SnapshotID: 44b612fbd4e05224dab45386085ffba0
+  m_FloatValues: {}
+  m_TransitionOverrides: {}
+--- !u!245 &476131904333735721
+AudioMixerSnapshotController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Main Hub
+  m_AudioMixer: {fileID: 24100000}
+  m_SnapshotID: 25a5883d656309541aa0b307a09e4347
+  m_FloatValues: {}
+  m_TransitionOverrides: {}
+--- !u!243 &1942158454243301519
+AudioMixerGroupController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Right Hall
+  m_AudioMixer: {fileID: 24100000}
+  m_GroupID: ef458b5ebd23c664ca04d285be1931f2
+  m_Children: []
+  m_Volume: 029579248592a614585ce23c8fd2a892
+  m_Pitch: 61f60aea84a0f714ba23a2f8f1ca8217
+  m_Send: 00000000000000000000000000000000
+  m_Effects:
+  - {fileID: -2343143279912690227}
+  m_UserColorIndex: 0
+  m_Mute: 0
+  m_Solo: 0
+  m_BypassEffects: 0
+--- !u!243 &2632912868235507638
+AudioMixerGroupController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Main Hub
+  m_AudioMixer: {fileID: 24100000}
+  m_GroupID: e05ba361060cf3b48a82ebddb1786b6f
+  m_Children: []
+  m_Volume: 51cbfa344ba99ec4d8ddb0f8996f859b
+  m_Pitch: cf7f73aa1ad41da4299fe43687cb5bf4
+  m_Send: 00000000000000000000000000000000
+  m_Effects:
+  - {fileID: -8998436190651428218}
+  m_UserColorIndex: 0
+  m_Mute: 0
+  m_Solo: 0
+  m_BypassEffects: 0
+--- !u!243 &6968131100150556962
+AudioMixerGroupController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Left Hall
+  m_AudioMixer: {fileID: 24100000}
+  m_GroupID: fc37be76005e4134089f7bc73bdfb2c7
+  m_Children: []
+  m_Volume: e07d809f191843e4dbe0c92664e68526
+  m_Pitch: edd45811333f1e84a8dba152bda82dbb
+  m_Send: 00000000000000000000000000000000
+  m_Effects:
+  - {fileID: 7150902047706638818}
+  m_UserColorIndex: 0
+  m_Mute: 0
+  m_Solo: 0
+  m_BypassEffects: 0
+--- !u!244 &7150902047706638818
+AudioMixerEffectController:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: 
+  m_EffectID: 4a74dab570e80734390946ec397495dc
+  m_EffectName: Attenuation
+  m_MixLevel: dd10d07dbefd9214cb78727bec3d54ba
+  m_Parameters: []
+  m_SendTarget: {fileID: 0}
+  m_EnableWetMix: 0
+  m_Bypass: 0
