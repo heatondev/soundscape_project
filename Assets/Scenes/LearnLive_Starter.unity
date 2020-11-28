@@ -6168,6 +6168,28 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 371125646}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &662796998 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1743903104223250, guid: 2e62f5703e5f8d2488a5e1bc8433be41,
+    type: 3}
+  m_PrefabInstance: {fileID: 28037335}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &662796999
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 662796998}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99ec2ccaeb6eea14186a7d6aff1a284d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rightHall: {fileID: -8022343472267494824, guid: 2bedb9a5653546d49a27a015cc69147d,
+    type: 2}
+  mainHub: {fileID: 476131904333735721, guid: 2bedb9a5653546d49a27a015cc69147d, type: 2}
+  leftHall: {fileID: 24500006, guid: 2bedb9a5653546d49a27a015cc69147d, type: 2}
 --- !u!1001 &668903175
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -21646,28 +21668,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5310346ebe38f7f4e83c503af66975ea, type: 3}
---- !u!1 &2034449357 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 100000, guid: 91c868d984c0e3346ad253948a71311f,
-    type: 3}
-  m_PrefabInstance: {fileID: 32517088}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &2034449358
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2034449357}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 99ec2ccaeb6eea14186a7d6aff1a284d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  rightHall: {fileID: -8022343472267494824, guid: 2bedb9a5653546d49a27a015cc69147d,
-    type: 2}
-  mainHub: {fileID: 476131904333735721, guid: 2bedb9a5653546d49a27a015cc69147d, type: 2}
-  leftHall: {fileID: 24500006, guid: 2bedb9a5653546d49a27a015cc69147d, type: 2}
 --- !u!1001 &2038989406
 PrefabInstance:
   m_ObjectHideFlags: 0
