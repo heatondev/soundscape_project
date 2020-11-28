@@ -23,7 +23,9 @@ AudioMixerSnapshotController:
   m_Name: Right Hall
   m_AudioMixer: {fileID: 24100000}
   m_SnapshotID: 9e924e5f1b472bb43a9d75ed76c4c05c
-  m_FloatValues: {}
+  m_FloatValues:
+    51cbfa344ba99ec4d8ddb0f8996f859b: -30.320126
+    e07d809f191843e4dbe0c92664e68526: -80
   m_TransitionOverrides: {}
 --- !u!244 &-2343143279912690227
 AudioMixerEffectController:
@@ -111,7 +113,9 @@ AudioMixerSnapshotController:
   m_Name: Left Hall
   m_AudioMixer: {fileID: 24100000}
   m_SnapshotID: 44b612fbd4e05224dab45386085ffba0
-  m_FloatValues: {}
+  m_FloatValues:
+    029579248592a614585ce23c8fd2a892: -0.037667945
+    51cbfa344ba99ec4d8ddb0f8996f859b: 0.13552584
   m_TransitionOverrides: {}
 --- !u!245 &476131904333735721
 AudioMixerSnapshotController:
@@ -122,7 +126,9 @@ AudioMixerSnapshotController:
   m_Name: Main Hub
   m_AudioMixer: {fileID: 24100000}
   m_SnapshotID: 25a5883d656309541aa0b307a09e4347
-  m_FloatValues: {}
+  m_FloatValues:
+    029579248592a614585ce23c8fd2a892: -39.703533
+    e07d809f191843e4dbe0c92664e68526: -39.703533
   m_TransitionOverrides: {}
 --- !u!243 &1942158454243301519
 AudioMixerGroupController:
