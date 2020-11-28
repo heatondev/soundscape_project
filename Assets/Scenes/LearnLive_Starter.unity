@@ -21664,9 +21664,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 99ec2ccaeb6eea14186a7d6aff1a284d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rightHall: {fileID: 0}
-  mainHub: {fileID: 0}
-  leftHall: {fileID: 0}
+  rightHall: {fileID: -8022343472267494824, guid: 2bedb9a5653546d49a27a015cc69147d,
+    type: 2}
+  mainHub: {fileID: 476131904333735721, guid: 2bedb9a5653546d49a27a015cc69147d, type: 2}
+  leftHall: {fileID: 24500006, guid: 2bedb9a5653546d49a27a015cc69147d, type: 2}
 --- !u!1001 &2038989406
 PrefabInstance:
   m_ObjectHideFlags: 0
