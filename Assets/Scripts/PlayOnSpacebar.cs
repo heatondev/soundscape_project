@@ -1,20 +1,17 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.Audio;
 
-public class SoundTrigger : MonoBehaviour
+public class PlayOnSpacebar : MonoBehaviour
 {
-    public AudioSource LostTransmission;
-
+    public AudioSource someSound;
 
     // Update is called once per frame
     void Update()
     {
-
         if (Input.GetKeyDown(KeyCode.Space))
         {
-            LostTransmission.Play();
+            someSound.Play();
         }
     }
 }
